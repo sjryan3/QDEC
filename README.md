@@ -59,6 +59,8 @@ If you achieve this milestone, congratulations! You are now ready to start updat
 8. **Publish changes**:
    - Enjoy your neat automatically generated publication list. You can customize style and template if you need to add new links and flags.
 
+git commit --allow-empty -m "Trigger GitHub Pages rebuild"
+git push
 
 ## 🛠 Requirements
 
