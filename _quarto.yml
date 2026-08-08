@@ -9,7 +9,7 @@ author-meta: "Prof Sadie J. Ryan"
 website:
   title: "QDEC Lab Website"
   image: "https://quarto.org/quarto.png"
-  description: "Quarto academic website hack"
+  description: "QDEC Lab at UF"
  
   navbar:
     background: light  # You can change the background color here
@@ -17,20 +17,13 @@ website:
     left:   # You can comment out all navigation items here if you just like to keep the index page only
       - text: Home
         href: index.qmd
-#      - text: About
-#        menu:
-#          - text: News
-#            href: posts.qmd#category=news
-#          - text: Events
-#            href: posts.qmd#category=event      
-#          - text: Contact
-#            href: contact.qmd             
+     
       - text: People   # Comment the Group part out to remove the Group page
         menu:
           - text: Current
             href: people.qmd
-        # -text: Alumni
-        # href: alumni.qmd
+          - text: Alumni
+            href: alumni.qmd
       - text: Teaching # Comment the Teaching part out to remove the Teaching page
         href: teaching.qmd
 #      - text: Outreach
