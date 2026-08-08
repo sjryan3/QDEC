@@ -22,8 +22,8 @@ website:
         menu:
           - text: Current
             href: people.qmd
-          - text: Alumni
-            href: alumni.qmd
+        #  - text: Alumni
+        #    href: alumni.qmd
       - text: Teaching # Comment the Teaching part out to remove the Teaching page
         href: teaching.qmd
 #      - text: Outreach
