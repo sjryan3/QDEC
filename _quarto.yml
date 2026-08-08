@@ -27,21 +27,20 @@ website:
 #            href: contact.qmd             
       - text: People   # Comment the Group part out to remove the Group page
         menu:
-        -text: Current
-        href: people.qmd
-        -text: Alumni
-        href: alumni.qmd
+          - text: Current
+            href: people.qmd
+        # -text: Alumni
+        # href: alumni.qmd
       - text: Teaching # Comment the Teaching part out to remove the Teaching page
         href: teaching.qmd
 #      - text: Outreach
       - text: Projects
-       href: projects.qmd 
-          #- text: Selected Papers
-         #   href: posts.qmd#category=paper
-         # - text: Grants
+        href: projects.qmd 
+        #   href: posts.qmd#category=paper
+        # - text: Grants
                                   
       - text: Publications
-      href: publications.qmd
+        href: publications.qmd
  #       menu:        
 #        - text: Presentations
 #          href: posts.qmd#category=presentation                   
