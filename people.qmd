@@ -58,12 +58,6 @@ format:
 
 ## Team
 
-:::{#lab-member}
-:::
-
-
 ## Alumni
 
-:::{#lab-alumni}
-:::
 

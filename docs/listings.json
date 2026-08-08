@@ -1,9 +1,5 @@
 [
   {
-    "listing": "/people.html",
-    "items": []
-  },
-  {
     "listing": "/pub-listing.html",
     "items": []
   },
@@ -14,6 +10,10 @@
       "/posts/news-title/index.html",
       "/posts/paper-title/index.html"
     ]
+  },
+  {
+    "listing": "/people.html",
+    "items": []
   },
   {
     "listing": "/alumni.html",
@@ -30,6 +30,14 @@
       "/pub-listing.html",
       "/publications.html",
       "/teaching.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/posts/event-title/index.html",
+      "/posts/news-title/index.html",
+      "/posts/paper-title/index.html"
     ]
   },
   {

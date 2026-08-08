@@ -49,7 +49,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-f0f4b58164ec92a07fcd2db94b0e5cbd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-55840f36267cc72f8a889bba13081f92.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -136,45 +136,6 @@ ul.task-list li input[type="checkbox"] {
   })
   </script>
 
-
-<!-- 
-
-Load Academicons v1: https://jpswalsh.github.io/academicons/
-
--->
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-
-
-
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-
-
-
-
-
-<!---
-
-The following code are needed to show dimension citation and altmetrics.
-
-https://api.altmetric.com/embeds.html
-
-https://badge.dimensions.ai/
-
---->
-
-
-
-<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
-
-
-
-<script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-
-
-
-<script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
-
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
 
@@ -205,7 +166,6 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="People – QDEC Lab Website">
 <meta property="og:description" content="Who we are">
 <meta property="og:image" content="./files/profiles/profile1.JPG">
@@ -241,10 +201,6 @@ window.Quarto = {
         <li>
     <a class="dropdown-item" href="./people.html">
  <span class="dropdown-text">Current</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./alumni.html">
- <span class="dropdown-text">Alumni</span></a>
   </li>  
     </ul>
   </li>
@@ -318,7 +274,15 @@ window.Quarto = {
 
 <section id="team" class="level2">
 <h2 class="anchored" data-anchor-id="team">Team</h2>
-<div id="listing-lab-member" class="quarto-listing quarto-listing-container-grid">
+</section>
+<section id="alumni" class="level2">
+<h2 class="anchored" data-anchor-id="alumni">Alumni</h2>
+
+
+
+</section>
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-lab-member">
 <div class="list grid quarto-listing-cols-4">
 <div class="g-col-1" data-index="0" data-categories="UGhEJTIwU3R1ZGVudA==">
 <a href="https://drganghe.github.io/quarto-academic-website-template" class="quarto-grid-link">
@@ -386,11 +350,7 @@ PI
 </div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
-</div>
-</section>
-<section id="alumni" class="level2">
-<h2 class="anchored" data-anchor-id="alumni">Alumni</h2>
-<div id="listing-lab-alumni" class="quarto-listing quarto-listing-container-table">
+</div><div class="quarto-listing quarto-listing-container-table" id="listing-lab-alumni">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
@@ -506,13 +466,7 @@ PI
 </tbody>
 </table>
 <div class="listing-no-matching d-none">No matching items</div>
-</div>
-
-
-
-</section>
-
-</main> <!-- /main -->
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -586,7 +540,7 @@ PI
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("^(?:http:|https:)\/\/drganghe\.github\.io\/custom");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
