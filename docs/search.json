@@ -109,21 +109,21 @@
     "href": "index.html",
     "title": "Quarto Academic, PhD",
     "section": "",
-    "text": "Lab\n  \n  \n    \n     Uprofile\n  \n  \n    \n     E-mail\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     YouTube\n  \n  \n      ORCID\n  \n  \n      Web of Science\n  \n  \n      Scopus\n  \n  \n      Google Scholar\n  \n\n  \n  \nI’m a Quarto Academeic Website Template adapted by Dr. Gang He.\nI’m a template that you can fork to build your own website with easy adaptation and deployment.\nI can automatically generate a neat publication list from an Excel file and enabling categories and filters.\nCheck Quarto Academic Website Examples and Tips and README.md for more detailed instructions.\n\n\n\nResearcher, Univerisity\nConsultant, Company\nIntern, Institute\n\n\n\n\n\nPhD, Univerisity\nMaster, Univerisity\nBachelor, Univerisity"
+    "text": "Welcome to the QDEC Lab at UF"
   },
   {
     "objectID": "index.html#experience",
     "href": "index.html#experience",
     "title": "Quarto Academic, PhD",
-    "section": "",
-    "text": "Researcher, Univerisity\nConsultant, Company\nIntern, Institute"
+    "section": "Experience",
+    "text": "Experience\n\nResearcher, Univerisity\nConsultant, Company\nIntern, Institute"
   },
   {
     "objectID": "index.html#education",
     "href": "index.html#education",
     "title": "Quarto Academic, PhD",
-    "section": "",
-    "text": "PhD, Univerisity\nMaster, Univerisity\nBachelor, Univerisity"
+    "section": "Education",
+    "text": "Education\n\nPhD, Univerisity\nMaster, Univerisity\nBachelor, Univerisity"
   },
   {
     "objectID": "posts/paper-title/index.html#abstract",
